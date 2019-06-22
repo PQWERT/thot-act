@@ -6,11 +6,11 @@
 
   "version": "1.0.0",
 
-  "main": "bot.js",
+  "main": "Bot.js",
 
   "scripts": {
 
-    "start": "node bot.js"
+    "start": "node Bot.js"
 
   },
 
