@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     // Set bot status to: "Playing with JavaScript"
-    client.user.setActivity("Over you (S0rry b0t unavailable) ",  {type: "WATCHING"})
+    client.user.setActivity("Anime (S0rry b0t unavailable) ",  {type: "WATCHING"})
 
     // Alternatively, you can set the activity to any of the following:
     // PLAYING, STREAMING, LISTENING, WATCHING
