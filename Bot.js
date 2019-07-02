@@ -9,10 +9,7 @@ client.on('ready', () => {
 setTimeout(myFunction,9000)
     
 function myFunction() {
-client.on('ready', () => {
-    // Set bot status to: "Playing with JavaScript"
-    client.user.setActivity("Sorry Music only for now",  {type: "LISTENING"}) ;
- }) 
-})
+    client.user.setActivity("Sorry Music only for now",  {type: "LISTENING"});
+ }
 });
 client.login(process.env.BOT_TOKEN);
