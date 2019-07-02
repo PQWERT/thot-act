@@ -2,9 +2,10 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 
-client.on('ready', () => 
 var a = 0;
 beginning: while(true) {
+    
+client.on('ready', () => 
     client.user.setActivity("p!music",  {type: "PLAYING"});
    
 setTimeout(function(){ 
