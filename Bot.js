@@ -10,10 +10,11 @@ client.on('ready', () => {
 setTimeout(function(){ 
     client.user.setActivity("Sorry Music only for now",  {type: "LISTENING"} , 15000);
 
-a++;
+ a++;
    if(i < 424) continue beginning;
       break;
+ });
 });
-}
+} 
 
 client.login(process.env.BOT_TOKEN);
