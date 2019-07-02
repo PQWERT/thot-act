@@ -3,8 +3,6 @@ const client = new Discord.Client();
 
 var a = 0;
 beginning: while(true) {
-client.on('ready', () => {
-    // Set bot status to: "Playing with JavaScript"
     client.user.setActivity("p!music",  {type: "PLAYING"});
    
 setTimeout(function(){ 
