@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 labelname:
-wilde (ture):
+wilde (ture)
 client.on('ready', () => {
     client.user.setActivity("p!music",  {type: "PLAYING"});
     setTimeout(function(){ 
