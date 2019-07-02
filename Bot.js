@@ -14,6 +14,6 @@ a++;
    if(i < 424) continue beginning;
       break;
 });
-});
+}
 
 client.login(process.env.BOT_TOKEN);
