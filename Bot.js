@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-labelname :
+labelname:
 wilde (ture)
 client.on('ready', () => {
     client.user.setActivity("p!music",  {type: "PLAYING"});
