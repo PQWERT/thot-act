@@ -9,7 +9,9 @@ client.on('ready', () => {
    
 setTimeout(function(){ 
     client.user.setActivity("Sorry Music only for now",  {type: "LISTENING"} , 15000);
+} 
 
 continue loop;
+});
 
 client.login(process.env.BOT_TOKEN);
